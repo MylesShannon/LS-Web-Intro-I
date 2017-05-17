@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>second-layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+
+    body {
+      font-size: 0;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #head {
+      width: 100vw;
+      height: 15vh;
+      background-color: red;
+    }
+
+    #torso #left {
+      width: 33.33vw;
+      height: 70vh;
+      background-color: blue;
+    }
+
+    #torso #middle {
+      width: 33.33vw;
+      height: 70vh;
+      position: absolute;
+      top: 15vh;
+      left: 33.33vw;
+      background-color: purple;
+    }
+
+    #torso #right {
+      width: 33.33vw;
+      height: 70vh;
+      position: absolute;
+      top: 15vh;
+      right: 0;
+      background-color: yellow;
+    }
+
+    #foot {
+      position: absolute;
+      bottom: 0;
+      width: 100vw;
+      height: 15vh;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div id="head">
+  </div>
+  <div id="torso">
+    <div id="left">
+    </div>
+    <div id="middle">
+    </div>
+    <div id="right">
+    </div>
+  </div>
+  <div id="foot">
+  </div>
+</body>
+</html>
