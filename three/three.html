@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>third-layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+
+    body {
+      font-size: 0;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #head {
+      width: 100vw;
+      height: 19vh;
+      background-color: purple;
+    }
+
+    #torso {
+      width: 71vw;
+      height: 142vh;
+      position: absolute;
+      left: calc((100vw - 71vw) / 2);
+      background-color: red;
+      padding-top: 7vh;
+    }
+
+    #box {
+      background-color: blue;
+      height: 35vh;
+      margin: 4vh 10vw 0 10vw;
+      padding: 3vw 3vw 0 3vw;
+      min-height: 270px;
+    }
+
+    #inbox-left {
+      background-color: yellow;
+      float: left;
+      width: 14vw;
+      height: 14vw;
+      max-height: 180px;
+      max-width: 180px;
+    }
+
+    #inbox-right {
+      background-color: green;
+      float: right;
+      width: 28vw;
+      height: 28vh;
+      min-height: 220px;
+    }
+  </style>
+</head>
+<body>
+  <div id="head">
+  </div>
+  <div id="torso">
+    <div id="box">
+      <div id="inbox-left">
+      </div>
+      <div id="inbox-right">
+      </div>
+    </div>
+    <div id="box">
+      <div id="inbox-left">
+      </div>
+      <div id="inbox-right">
+      </div>
+    </div>
+    <div id="box">
+      <div id="inbox-left">
+      </div>
+      <div id="inbox-right">
+      </div>
+    </div>
+  </div>
+  <div id="foot">
+  </div>
+</body>
+</html>
